@@ -1,0 +1,18 @@
+Feb 20 21:20:06 server1 kernel: SLUB: Unable to allocate memory on node -1 (gfp=0x20)
+Feb 20 21:20:06 server1 kernel:  cache: kmalloc-4096, object size: 4096, buffer size: 4096, default order: 3, min order: 0
+Feb 20 21:20:06 server1 kernel:  node 0: slabs: 619, objs: 1641, free: 0
+Feb 20 21:20:06 server1 kernel: swapper: page allocation failure. order:0, mode:0x4020
+Feb 20 21:20:06 server1 kernel: Pid: 0, comm: swapper Not tainted 2.6.32.4 #1
+Feb 20 21:20:06 server1 kernel: Call Trace:
+Feb 20 21:20:06 server1 kernel: <IRQ>  [<ffffffff81084d3a>] ? __alloc_pages_nodemask+0x54a/0x670
+Feb 20 21:20:06 server1 kernel: [<ffffffff810b1f8a>] ? __slab_alloc+0x69a/0x6b0
+Feb 20 21:20:06 server1 kernel: [<ffffffff81710ee7>] ? __netdev_alloc_skb+0x17/0x40
+Feb 20 21:20:06 server1 kernel: [<ffffffff8178309d>] ? tcp_v4_rcv+0x6bd/0x780
+Feb 20 21:20:06 server1 kernel: [<ffffffff81710ee7>] ? __netdev_alloc_skb+0x17/0x40
+Feb 20 21:20:06 server1 kernel: [<ffffffff810b2f0b>] ? __kmalloc_track_caller+0xcb/0x110
+Feb 20 21:20:06 server1 kernel: [<ffffffff81710b6b>] ? __alloc_skb+0x6b/0x170
+Feb 20 21:20:06 server1 kernel: [<ffffffff81710ee7>] ? __netdev_alloc_skb+0x17/0x40
+Feb 20 21:20:06 server1 kernel: [<ffffffff8164fa29>] ? rtl8169_rx_fill+0xc9/0x220
+Feb 20 21:20:06 server1 kernel: [<ffffffff8164fdc0>] ? rtl8169_rx_interrupt+0x240/0x520
+Feb 20 21:20:06 server1 kernel: [<ffffffff81650236>] ? rtl8169_poll+0x56/0x240
+Feb 20 21:20:06 server1 kernel: [<ffffffff8171d513>] ? net_rx_action+0x83/0x130

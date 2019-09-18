@@ -1,0 +1,28 @@
+Aug 30 10:06:11 newfish kernel: >>>>>>>>>>>>>>>>>> Dump Card State Begins <<<<<<<<<<<<<<<<<
+Aug 30 10:06:11 newfish kernel: scsi1: Dumping Card State in Message-out phase, at SEQADDR 0x16b
+Aug 30 10:06:11 newfish kernel: Card was paused
+Aug 30 10:06:11 newfish kernel: ACCUM = 0xa0, SINDEX = 0x61, DINDEX = 0xe4, ARG_2 = 0x1
+Aug 30 10:06:11 newfish kernel: HCNT = 0x0 SCBPTR = 0x1
+Aug 30 10:06:11 newfish kernel: SCSIPHASE[0x0] SCSISIGI[0xa4] ERROR[0x0] SCSIBUSL[0xd]
+Aug 30 10:06:11 newfish kernel: LASTPHASE[0xa0] SCSISEQ[0x12] SBLKCTL[0xa] SCSIRATE[0xc2]
+Aug 30 10:06:11 newfish kernel: SEQCTL[0x10] SEQ_FLAGS[0x40] SSTAT0[0x0] SSTAT1[0x0]
+Aug 30 10:06:11 newfish kernel: SSTAT2[0x0] SSTAT3[0x0] SIMODE0[0x8] SIMODE1[0xac]
+Aug 30 10:06:11 newfish kernel: SXFRCTL0[0x88] DFCNTRL[0x0] DFSTATUS[0x89]
+Aug 30 10:06:11 newfish kernel: STACK: 0xe1 0xe1 0x163 0x178
+Aug 30 10:06:11 newfish kernel: SCB count = 12
+Aug 30 10:06:11 newfish kernel: Kernel NEXTQSCB = 11
+Aug 30 10:06:11 newfish kernel: Card NEXTQSCB = 4
+Aug 30 10:06:12 newfish kernel: QINFIFO entries: 4
+Aug 30 10:06:12 newfish kernel: Waiting Queue entries:
+Aug 30 10:06:12 newfish kernel: Disconnected Queue entries: 2:7
+Aug 30 10:06:12 newfish kernel: QOUTFIFO entries:
+Aug 30 10:06:12 newfish kernel: Sequencer Free SCB List: 0 6 7 5 4 3 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+Aug 30 10:06:12 newfish kernel: Sequencer SCB Info:
+Aug 30 10:06:12 newfish kernel: 0 SCB_CONTROL[0x0] SCB_SCSIID[0x17] SCB_LUN[0x0] SCB_TAG[0xff]
+Aug 30 10:06:12 newfish kernel: 1 SCB_CONTROL[0x64] SCB_SCSIID[0x17] SCB_LUN[0x0] SCB_TAG[0x5]
+Aug 30 10:06:12 newfish kernel: 2 SCB_CONTROL[0x64] SCB_SCSIID[0x17] SCB_LUN[0x0] SCB_TAG[0x7]
+Aug 30 10:06:12 newfish kernel: 3 SCB_CONTROL[0xe0] SCB_SCSIID[0x7] SCB_LUN[0x0] SCB_TAG[0xff]
+Aug 30 10:06:12 newfish kernel: 4 SCB_CONTROL[0xe0] SCB_SCSIID[0x7] SCB_LUN[0x0] SCB_TAG[0xff]
+Aug 30 10:06:12 newfish kernel: 5 SCB_CONTROL[0xe0] SCB_SCSIID[0x17] SCB_LUN[0x0] SCB_TAG[0xff]
+Aug 30 10:06:12 newfish kernel: 6 SCB_CONTROL[0x0] SCB_SCSIID[0x17] SCB_LUN[0x0] SCB_TAG[0xff]
+Aug 30 10:06:12 newfish kernel: 7 SCB_CONTROL[0xe0] SCB_SCSIID[0x17] SCB_LUN[0x0] SCB_TAG[0xff]
